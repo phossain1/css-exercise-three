@@ -20,6 +20,7 @@ body {
 
 .location {
   text-decoration: none
+  background-color:#E5E5E5;
 }
 
 location: hover {color:#808080;}
@@ -30,7 +31,6 @@ location: hover {color:#808080;}
 }
 
 .content {
-  background-color:#E5E5E5;
   border-right: 1px solid #000000;
   border-left: 1px solid #000000;
   border-bottom: 1px solid #000000;
@@ -38,6 +38,12 @@ location: hover {color:#808080;}
   padding-right: 10px; /* counts toward width */
   padding-bottom: 10px;
   padding-left: 10px;
+  display: inline-block;
+  float: right;
+}
+
+.arrow {
+  display: inline-block;
 }
 
 nav {
@@ -59,8 +65,4 @@ nav {
   width: 400px; /* counts toward width */
 }
 
-.arrow {
-  display: inline-block;
-  float: right;
-}
 #css_exercise3
