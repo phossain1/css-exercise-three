@@ -19,11 +19,12 @@ body {
 }
 
 .location {
-  text-decoration: none
-  background-color:#E5E5E5;
+  text-decoration: none;
+  background-color: #E5E5E5;
+  border-bottom: 1px solid #000000;
 }
 
-location: hover {color:#808080;}
+.location:hover {background-color:#808080;}
 
 .container {
   margin: 0 auto;
@@ -31,15 +32,12 @@ location: hover {color:#808080;}
 }
 
 .content {
-  border-right: 1px solid #000000;
-  border-left: 1px solid #000000;
-  border-bottom: 1px solid #000000;
   padding-top: 10px;
-  padding-right: 10px; /* counts toward width */
+  padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
   display: inline-block;
-  float: right;
+  width: 90%
 }
 
 .arrow {
@@ -49,20 +47,20 @@ location: hover {color:#808080;}
 nav {
   background-color: #000000;
   margin-top: 0;
-  margin-right: 50px; /* counts toward width */
+  margin-right: 50px;
   margin-bottom: 0;
-  margin-left: 50px; /* counts toward width */
+  margin-left: 50px;
   padding: 10px 0 15px 15px;
   width: 400px;
 }
 
 .restaurant-list {
   margin-top: 0;
-  margin-right: 50px; /* counts toward width */
+  margin-right: 50px;
   margin-bottom: 50px;
-  margin-left: 50px; /* counts toward width */
+  margin-left: 50px;
   padding: 0;
-  width: 400px; /* counts toward width */
+  width: 400px;
 }
 
 #css_exercise3
