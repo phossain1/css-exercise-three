@@ -6,6 +6,7 @@ body {
   background-color: #5B5B5B;
   font-family: sans-serif;
   font-size: 10px;
+  font-weight: bold;
 }
 
 .location h1 {
@@ -21,10 +22,10 @@ body {
 .location {
   text-decoration: none;
   background-color: #E5E5E5;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #959595;
 }
 
-.location:hover {background-color:#808080;}
+.location:hover {background-color:#B5B3B5;}
 
 .container {
   margin: 0 auto;
@@ -32,16 +33,14 @@ body {
 }
 
 .content {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  padding: 20px;
   display: inline-block;
   width: 90%
 }
 
 .arrow {
   display: inline-block;
+  position: static;
 }
 
 nav {
